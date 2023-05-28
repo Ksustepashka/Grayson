@@ -1,0 +1,51 @@
+@media screen and (max-width:1024px) {
+    .custom__cards {
+        flex-wrap: wrap;
+    }
+
+    .footer__wrap {
+        padding: 10px 20px;
+    }
+
+    .footer__item-h {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header__menu {
+        gap: 5px;
+
+    }
+
+    .header__menu-item {
+        font-size: 8px;
+    }
+
+    .cards__wrap {
+        flex-wrap: wrap;
+    }
+
+    .footer__item-list {
+        gap: 15px;
+    }
+
+    .footer__item-list-item {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:425px) {
+
+    .header__nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px 0px 10px;
+    }
+
+
+.footer__wrap{
+    flex-wrap: wrap;
+}
+
+}
